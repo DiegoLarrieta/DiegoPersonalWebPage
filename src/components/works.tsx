@@ -87,11 +87,11 @@ const ProjectCard = ({
     </Tilt>
   </motion.div>
 );
-
+//<SectionWrapper idName="contact">
 // Works
 export const Works = () => {
   return (
-    <SectionWrapper>
+    <SectionWrapper idName="project">
       <>
         {/* Title */}
         <motion.div variants={textVariant()}>

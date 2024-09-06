@@ -4,7 +4,7 @@ import {
   About,
   Contact,
   Experience,
-  Feedbacks,
+  Certificates,
   Hero,
   Navbar,
   Tech,
@@ -29,7 +29,7 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
+        <Certificates />
         
 
         {/* Contact */}

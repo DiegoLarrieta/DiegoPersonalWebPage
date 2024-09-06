@@ -10,7 +10,7 @@ import {
 } from "./canvas";
 import { Contact } from "./contact";
 import { Experience } from "./experience";
-import { Feedbacks } from "./feedbacks";
+import { Certificates } from "./certificates";
 import { Hero } from "./hero";
 import { Navbar } from "./navbar";
 import { Tech } from "./tech";
@@ -23,7 +23,7 @@ export {
   Contact,
   EarthCanvas,
   Experience,
-  Feedbacks,
+  Certificates,
   Hero,
   Navbar,
   StarsCanvas,

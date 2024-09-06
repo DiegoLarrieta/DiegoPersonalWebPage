@@ -43,6 +43,13 @@ import project3 from "./projects/project3.png";
 import project4 from "./projects/project4.png";
 import project5 from "./projects/project5.png";
 import project6 from "./projects/project6.png";
+import amazonReplic from "./projects/AmazonReplicPreview.png";
+import neorisProject from "./projects/NeorisPrroject.png";
+import encriptorProject from "./projects/EncriptorProject.png"
+
+import metaCertification from "./certifications/metaFrontEndCertificate.png";
+import googleCertification from "./certifications/googleCloudCertificate.png";
+import javascriptCertification from "./certifications/javaScriptCertificate.png";
 
 import user1 from "./testimonials/user1.jpg";
 import user2 from "./testimonials/user2.jpg";
@@ -94,6 +101,12 @@ export {
   project4,
   project5,
   project6,
+  amazonReplic,
+  neorisProject,
+  encriptorProject,  
+  metaCertification,
+  googleCertification,
+  javascriptCertification,
   user1,
   user2,
   user3,

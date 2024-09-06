@@ -36,6 +36,12 @@ import {
   project4,
   project5,
   project6,
+  amazonReplic,
+  neorisProject,
+  encriptorProject,
+  metaCertification,
+  googleCertification,
+  javascriptCertification,
   user1,
   user2,
   user3,
@@ -206,46 +212,34 @@ export const EXPERIENCES = [
 ] as const;
 
 // Testimonials
-export const TESTIMONIALS = [//CAMBIAR A CERTIFICATES
+export const CERTIFICATES = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: user1,
+    certificateName: "AWS Certified Solutions Architect",
+    image: metaCertification, // Reemplaza con la ruta real de la imagen
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: user2,
+    certificateName: "Google Cloud Professional Data Engineer",
+    image: googleCertification, // Reemplaza con la ruta real de la imagen
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: user3,
+    certificateName: "Microsoft Certified: Azure Fundamentals",
+    image: javascriptCertification, // Reemplaza con la ruta real de la imagen
   },
 ] as const;
 
 // Projects
 export const PROJECTS = [
   {
-    name: "Disney+ Clone",
+    name: "Amazon Replic",
     description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+      "I developed a fully responsive Amazon e-commerce clone, focusing on creating a functional shopping experience. The platform allows users to browse products, add items to their cart, and complete purchases seamlessly. This project showcases my skills in front-end development, ensuring an intuitive and user-friendly interface, as well as back-end integration for managing orders and payments.",
     tags: [
       {
-        name: "react",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "Integration Testing",
         color: "green-text-gradient",
       },
       {
@@ -253,80 +247,58 @@ export const PROJECTS = [
         color: "pink-text-gradient",
       },
     ],
-    image: project1,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
+    image: amazonReplic,
+    source_code_link: "https://github.com/DiegoLarrieta/AmazonReplic",
+    live_site_link: "https://diegolarrieta.github.io/AmazonReplic/",
   },
   {
-    name: "Golds Gym",
+    name: "Employee Training Platform",
     description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
+      "I developed an employee training platform for a tech company, featuring course assignments and progress tracking for employees. To enhance engagement, I integrated a Unity-based video game, where employees could earn rewards to use in their courses. The platform also included admin functionalities for course creation and user account management, allowing administrators to monitor employee progress efficiently.",
     tags: [
       {
-        name: "react",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "Unity",
         color: "pink-text-gradient",
       },
     ],
-    image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app/",
+    image: neorisProject,
+    source_code_link: "https://github.com/DiegoLarrieta/NeorisProject",
+    live_site_link: "https://coursetrainingplatform.netlify.app/login/",
   },
   {
-    name: "Shoppy",
+    name: "Encryptor",
     description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
+      "I created a fully functional web application for text encryption and decryption. This project features a user-friendly interface that allows users to securely encrypt and decrypt text messages . It demonstrates my skills in web development, cryptography, and creating intuitive user interfaces.",
     tags: [
       {
-        name: "react",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "syncfusion",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: project3,
-    source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-    live_site_link: "https://shoppy-dashboard-react.netlify.app/",
-  },
-  {
-    name: "TikTok Clone",
-    description:
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
-    live_site_link: "https://tiktok-clone-react.vercel.app/",
+    image: encriptorProject,
+    source_code_link: "https://github.com/DiegoLarrieta/Encryptor",
+    live_site_link: "https://diegolarrieta.github.io/Encryptor/",
   },
   {
     name: "Cryptoverse",
     description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
+      "Developed a web application for visualizing and analyzing cryptocurrencies. Users can search for different cryptocurrencies, view detailed performance graphs, and analyze historical data trends over time. The platform provides a comprehensive overview of each cryptocurrency's performance",
     tags: [
       {
         name: "react",
@@ -342,30 +314,8 @@ export const PROJECTS = [
       },
     ],
     image: project5,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
+    source_code_link: "https://github.com/DiegoLarrieta/CryptoWebPage",
     live_site_link: "https://reactjscryptoapp.netlify.app/",
-  },
-  {
-    name: "Travel Advisor",
-    description:
-      "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "material-ui",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project6,
-    source_code_link: "https://github.com/sanidhyy/travel-advisor",
-    live_site_link: "https://travel-advisor-reactjs.netlify.app/",
   },
 ] as const;
 

@@ -27,6 +27,7 @@ import typescript from "./tech/typescript.png";
 import cpp from "./tech/c++.png";
 import python from "./tech/python.png";
 import sql from "./tech/sql.png";
+import swift from "./tech/sf.jpg";
 
 import superpin from "./company/SuperPinLogo.png"
 import farmasana from "./company/farmasana.png";
@@ -45,7 +46,8 @@ import project5 from "./projects/project5.png";
 import project6 from "./projects/project6.png";
 import amazonReplic from "./projects/AmazonReplicPreview.png";
 import neorisProject from "./projects/NeorisPrroject.png";
-import encriptorProject from "./projects/EncriptorProject.png"
+import encriptorProject from "./projects/EncriptorProject.png";
+import wiseCredit from "./projects/CreditSimulation-Image.jpeg";
 
 import metaCertification from "./certifications/metaFrontEndCertificate.png";
 import googleCertification from "./certifications/googleCloudCertificate.png";
@@ -87,6 +89,7 @@ export {
   python,
   cpp,
   sql,
+  swift,
   superpin,
   farmasana,
   intellsis,
@@ -104,6 +107,7 @@ export {
   amazonReplic,
   neorisProject,
   encriptorProject,  
+  wiseCredit,
   metaCertification,
   googleCertification,
   javascriptCertification,

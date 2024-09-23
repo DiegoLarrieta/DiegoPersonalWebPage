@@ -21,6 +21,7 @@ import {
   cpp,
   python,
   sql,
+  swift,
   superpin,
   farmasana,
   intellsis,
@@ -36,6 +37,7 @@ import {
   project4,
   project5,
   project6,
+  wiseCredit,
   amazonReplic,
   neorisProject,
   encriptorProject,
@@ -151,6 +153,10 @@ export const TECHNOLOGIES = [
     name: "Sql",//Cambiar a SQL
     icon: sql,
   },
+  {
+    name : "IOS",
+    icon : swift,
+  }
  
 ] as const;
 
@@ -317,6 +323,26 @@ export const PROJECTS = [
     source_code_link: "https://github.com/DiegoLarrieta/CryptoWebPage",
     live_site_link: "https://reactjscryptoapp.netlify.app/",
   },
+  {
+    name : "WiseCredit",
+    description : " I developed an iOS finance app that helps users analyze and compare the best personal loan options from various banks. The app allows users to input their personal information and loan requirements, then compares different banks based on their interest rates and loan characteristics to provide the best options. Additionally, we built an admin webpage where administrators can add new banks, update existing bank details, and edit their interest rates. This tool streamlines the loan selection process, making it easier for users to find the most suitable financial institutions for their needs. ",
+    tags : [
+      {
+        name : "Swift",
+        color : "green-text-gradient",
+      },
+      {
+        name : "Firebase",
+        color : "pink-text-gradient",
+      },
+      {
+        name : "JavaScript",
+        color : "blue-text-gradient",
+      }
+    ],
+    image : wiseCredit,
+    source_code_link : "https://github.com/DiegoLarrieta/HackathonCapOne",
+  }
 ] as const;
 
 export const SOCIALS = [

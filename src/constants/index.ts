@@ -280,28 +280,6 @@ export const PROJECTS = [
     live_site_link: "https://coursetrainingplatform.netlify.app/login/",
   },
   {
-    name: "Encryptor",
-    description:
-      "I created a fully functional web application for text encryption and decryption. This project features a user-friendly interface that allows users to securely encrypt and decrypt text messages . It demonstrates my skills in web development, cryptography, and creating intuitive user interfaces.",
-    tags: [
-      {
-        name: "JavaScript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "HTML",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: encriptorProject,
-    source_code_link: "https://github.com/DiegoLarrieta/Encryptor",
-    live_site_link: "https://diegolarrieta.github.io/Encryptor/",
-  },
-  {
     name: "Cryptoverse",
     description:
       "Developed a web application for visualizing and analyzing cryptocurrencies. Users can search for different cryptocurrencies, view detailed performance graphs, and analyze historical data trends over time. The platform provides a comprehensive overview of each cryptocurrency's performance",
@@ -324,26 +302,27 @@ export const PROJECTS = [
     live_site_link: "https://reactjscryptoapp.netlify.app/",
   },
   {
-    name : "WiseCredit",
-    description : " I developed an iOS finance app that helps users analyze and compare the best personal loan options from various banks. The app allows users to input their personal information and loan requirements, then compares different banks based on their interest rates and loan characteristics to provide the best options. Additionally, we built an admin webpage where administrators can add new banks, update existing bank details, and edit their interest rates. This tool streamlines the loan selection process, making it easier for users to find the most suitable financial institutions for their needs. ",
-    tags : [
+    name: "WiseCredit",
+    description:
+      "I developed an iOS finance app that helps users analyze and compare the best personal loan options from various banks. The app allows users to input their personal information and loan requirements, then compares different banks based on their interest rates and loan characteristics to provide the best options. Additionally, we built an admin webpage where administrators can add new banks, update existing bank details, and edit their interest rates. This tool streamlines the loan selection process, making it easier for users to find the most suitable financial institutions for their needs. ",
+    tags: [
       {
-        name : "Swift",
-        color : "green-text-gradient",
+        name: "swift",
+        color: "blue-text-gradient",
       },
       {
-        name : "Firebase",
-        color : "pink-text-gradient",
+        name: "firebase",
+        color: "green-text-gradient",
       },
       {
-        name : "JavaScript",
-        color : "blue-text-gradient",
-      }
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
     ],
-    image : wiseCredit,
-    source_code_link : "https://github.com/DiegoLarrieta/HackathonCapOne",
-    live_site_link : "https://github.com/DiegoLarrieta/HackathonCapOne",
-  }
+    image: wiseCredit,
+    source_code_link: "https://github.com/DiegoLarrieta/HackathonCapOne",
+    live_site_link: "https://github.com/DiegoLarrieta/HackathonCapOne",
+  },
 ] as const;
 
 export const SOCIALS = [

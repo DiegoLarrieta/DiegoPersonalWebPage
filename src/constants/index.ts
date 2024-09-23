@@ -342,6 +342,7 @@ export const PROJECTS = [
     ],
     image : wiseCredit,
     source_code_link : "https://github.com/DiegoLarrieta/HackathonCapOne",
+    live_site_link : "https://github.com/DiegoLarrieta/HackathonCapOne",
   }
 ] as const;
 

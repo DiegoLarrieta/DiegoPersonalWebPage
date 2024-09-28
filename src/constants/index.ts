@@ -196,10 +196,9 @@ export const EXPERIENCES = [
     iconBg: "#E6DEDD",
     date: "Feb 2024 - August 2024",
     points: [
-      "Developed UI elements using React, creating various macros for direct client interaction.",
-      "Participated in integrating GraphQL into the system, enhancing data querying capabilities and efficiency.",
-      "Worked collaboratively within a team using Agile methodologies, contributing to iterative development and project management.",
-      "Focused on improving user experience by implementing responsive design and ensuring a seamless interaction flow.",
+      "Developed reusable React components, optimizing code modularity and improving app scalability for future feature additions.",
+      "Improved user experience by implementing responsive design with CSS frameworks, optimizing cross-device functionality, reducing bounce rates by 10%, and boosting overall performance and enhancing customer satisfaction.",
+      "Integrated Three.js for real-time 3D visualizations, reducing rendering times by 25% and enhancing interaction with complex data.",
     ],
   },
   {
@@ -207,12 +206,12 @@ export const EXPERIENCES = [
     company_name: "Arca Continental",
     icon: arcaContinental,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2024",
     points: [
       "Led the team by organizing tasks and managing team dynamics during the hackathon.",
-      "Engineered a machine learning solution leveraging TensorFlow to construct and train a predictive model.",
+      "Engineered a machine learning solution using TensorFlow to develop and train apredictive model that identifies individual product preferences.",
       "Implemented a solution to send targeted promotions based on detected customer preferences, enhancing the effectiveness of marketing efforts.",
-      "Improved promotional strategies by leveraging data-driven insights to deliver more relevant offers to customers.",
+      "Enhanced promotional strategies by leveraging data-driven insights to deliver targeted marketing advertisements, ensuring more relevant offers reach customers based on their preferences.",
     ],
   },
 ] as const;
@@ -220,15 +219,15 @@ export const EXPERIENCES = [
 // Testimonials
 export const CERTIFICATES = [
   {
-    certificateName: "AWS Certified Solutions Architect",
+    certificateName: "Meta FrontEnd Certification",
     image: metaCertification, // Reemplaza con la ruta real de la imagen
   },
   {
-    certificateName: "Google Cloud Professional Data Engineer",
+    certificateName: "Google Cloud Certification",
     image: googleCertification, // Reemplaza con la ruta real de la imagen
   },
   {
-    certificateName: "Microsoft Certified: Azure Fundamentals",
+    certificateName: "JavaScript Certification",
     image: javascriptCertification, // Reemplaza con la ruta real de la imagen
   },
 ] as const;

@@ -301,50 +301,6 @@ export const PROJECTS = [
     live_site_link: "https://reactjscryptoapp.netlify.app/",
   },
   {
-    name: "Employee Training Platform",
-    description:
-      "I developed an employee training platform for a tech company, featuring course assignments and progress tracking for employees. To enhance engagement, I integrated a Unity-based video game, where employees could earn rewards to use in their courses. The platform also included admin functionalities for course creation and user account management, allowing administrators to monitor employee progress efficiently.",
-    tags: [
-      {
-        name: "JavaScript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Unity",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: neorisProject,
-    source_code_link: "https://github.com/DiegoLarrieta/NeorisProject",
-    live_site_link: "https://coursetrainingplatform.netlify.app/login/",
-  },
-  {
-    name: "Amazon Replica",
-    description:
-      "I developed a fully responsive Amazon e-commerce clone, focusing on creating a functional shopping experience. The platform allows users to browse products, add items to their cart, and complete purchases seamlessly. This project showcases my skills in front-end development, ensuring an intuitive and user-friendly interface, as well as back-end integration for managing orders and payments.",
-    tags: [
-      {
-        name: "JavaScript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Integration Testing",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: amazonReplic,
-    source_code_link: "https://github.com/DiegoLarrieta/AmazonReplic",
-    live_site_link: "https://diegolarrieta.github.io/AmazonReplic/",
-  },
-  {
     name: "WiseCredit",
     description:
       "I developed an iOS finance app that helps users analyze and compare the best personal loan options from various banks. The app allows users to input their personal information and loan requirements, then compares different banks based on their interest rates and loan characteristics to provide the best options. Additionally, we built an admin webpage where administrators can add new banks, update existing bank details, and edit their interest rates. This tool streamlines the loan selection process, making it easier for users to find the most suitable financial institutions for their needs. ",

@@ -90,6 +90,9 @@ export const Contact = () => {
 
     // show loader
     setLoading(true);
+  
+    console.log(import.meta.env.VITE_APP_EMAILJS_KEY);  // Verifica que la clave esté aquí
+
 
     // send email
     emailjs

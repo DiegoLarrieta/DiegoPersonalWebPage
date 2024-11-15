@@ -31,6 +31,7 @@ export const Hero = () => {
             <p>Perseverant</p>
             <p>Collaborative</p>
             <p>Proactive</p>
+            <p>Passionate</p>
           </div>
         </div>
       </div>

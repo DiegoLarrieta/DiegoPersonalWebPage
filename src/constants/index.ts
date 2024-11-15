@@ -44,6 +44,7 @@ import {
   metaCertification,
   googleCertification,
   javascriptCertification,
+  cisconetworkCertification,
   user1,
   user2,
   user3,
@@ -229,6 +230,10 @@ export const CERTIFICATES = [
   {
     certificateName: "JavaScript Certification",
     image: javascriptCertification, // Reemplaza con la ruta real de la imagen
+  },
+  {
+    certificateName: "Cisco Networking ",
+    image: cisconetworkCertification, // Reemplaza con la ruta real de la imagen
   },
 ] as const;
 

@@ -52,6 +52,7 @@ import wiseCredit from "./projects/CreditSimulation-Image.jpeg";
 import metaCertification from "./certifications/metaFrontEndCertificate.png";
 import googleCertification from "./certifications/googleCloudCertificate.png";
 import javascriptCertification from "./certifications/javaScriptCertificate.png";
+import cisconetworkCertification from "./certifications/CiscoNetworking.jpeg"
 
 import user1 from "./testimonials/user1.jpg";
 import user2 from "./testimonials/user2.jpg";
@@ -111,6 +112,7 @@ export {
   metaCertification,
   googleCertification,
   javascriptCertification,
+  cisconetworkCertification,
   user1,
   user2,
   user3,

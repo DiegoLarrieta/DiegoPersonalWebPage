@@ -26,12 +26,12 @@ export const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Diego</span>
           </h1>
           {/* Aqui debes de cambiar lo del texto para que no lo tape la computadora*/}
-          <p className={cn(styles.heroSubText, "mt-2 text-white-100")}>
+          <div className={cn(styles.heroSubText, "mt-2 text-white-100")}>
             <p>Resilient</p>
             <p>Perseverant</p>
             <p>Collaborative</p>
             <p>Proactive</p>
-          </p>
+          </div>
         </div>
       </div>
 

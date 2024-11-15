@@ -235,7 +235,7 @@ export const CERTIFICATES = [
 // Projects
 export const PROJECTS = [
   {
-    name: "Amazon Replic",
+    name: "Amazon Replica",
     description:
       "I developed a fully responsive Amazon e-commerce clone, focusing on creating a functional shopping experience. The platform allows users to browse products, add items to their cart, and complete purchases seamlessly. This project showcases my skills in front-end development, ensuring an intuitive and user-friendly interface, as well as back-end integration for managing orders and payments.",
     tags: [
@@ -299,6 +299,50 @@ export const PROJECTS = [
     image: project5,
     source_code_link: "https://github.com/DiegoLarrieta/CryptoWebPage",
     live_site_link: "https://reactjscryptoapp.netlify.app/",
+  },
+  {
+    name: "Employee Training Platform",
+    description:
+      "I developed an employee training platform for a tech company, featuring course assignments and progress tracking for employees. To enhance engagement, I integrated a Unity-based video game, where employees could earn rewards to use in their courses. The platform also included admin functionalities for course creation and user account management, allowing administrators to monitor employee progress efficiently.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Unity",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: neorisProject,
+    source_code_link: "https://github.com/DiegoLarrieta/NeorisProject",
+    live_site_link: "https://coursetrainingplatform.netlify.app/login/",
+  },
+  {
+    name: "Amazon Replica",
+    description:
+      "I developed a fully responsive Amazon e-commerce clone, focusing on creating a functional shopping experience. The platform allows users to browse products, add items to their cart, and complete purchases seamlessly. This project showcases my skills in front-end development, ensuring an intuitive and user-friendly interface, as well as back-end integration for managing orders and payments.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Integration Testing",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: amazonReplic,
+    source_code_link: "https://github.com/DiegoLarrieta/AmazonReplic",
+    live_site_link: "https://diegolarrieta.github.io/AmazonReplic/",
   },
   {
     name: "WiseCredit",

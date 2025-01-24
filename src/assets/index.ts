@@ -48,7 +48,7 @@ import amazonReplic from "./projects/AmazonReplicPreview.png";
 import neorisProject from "./projects/NeorisPrroject.png";
 import encriptorProject from "./projects/EncriptorProject.png";
 import wiseCredit from "./projects/CreditSimulation-Image.jpeg";
-import crmDjango from "./projects/CRM-Django.png";
+import crmDjango from "./projects/DJANGOCRMMAIN.png";
 
 import metaCertification from "./certifications/metaFrontEndCertificate.png";
 import googleCertification from "./certifications/googleCloudCertificate.png";

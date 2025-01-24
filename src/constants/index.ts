@@ -37,6 +37,7 @@ import {
   project4,
   project5,
   project6,
+  crmDjango,
   wiseCredit,
   amazonReplic,
   neorisProject,
@@ -45,6 +46,7 @@ import {
   googleCertification,
   javascriptCertification,
   cisconetworkCertification,
+  metaiosCertification,
   user1,
   user2,
   user3,
@@ -215,6 +217,19 @@ export const EXPERIENCES = [
       "Enhanced promotional strategies by leveraging data-driven insights to deliver targeted marketing advertisements, ensuring more relevant offers reach customers based on their preferences.",
     ],
   },
+  {
+    title: "Rocket Hackathon Winner",
+    company_name: "Arca Continental",
+    icon: arcaContinental,
+    iconBg: "#383E56",
+    date: "Jan 2024",
+    points: [
+      "Led the team by organizing tasks and managing team dynamics during the hackathon.",
+      "Engineered a machine learning solution using TensorFlow to develop and train apredictive model that identifies individual product preferences.",
+      "Implemented a solution to send targeted promotions based on detected customer preferences, enhancing the effectiveness of marketing efforts.",
+      "Enhanced promotional strategies by leveraging data-driven insights to deliver targeted marketing advertisements, ensuring more relevant offers reach customers based on their preferences.",
+    ],
+  },
 ] as const;
 
 // Testimonials
@@ -235,6 +250,10 @@ export const CERTIFICATES = [
     certificateName: "Cisco Networking ",
     image: cisconetworkCertification, // Reemplaza con la ruta real de la imagen
   },
+  {
+    certificateName: "Meta IOS Certification",
+    image: metaiosCertification, // Reemplaza con la ruta real de la imagen
+  }
 ] as const;
 
 // Projects

@@ -48,11 +48,13 @@ import amazonReplic from "./projects/AmazonReplicPreview.png";
 import neorisProject from "./projects/NeorisPrroject.png";
 import encriptorProject from "./projects/EncriptorProject.png";
 import wiseCredit from "./projects/CreditSimulation-Image.jpeg";
+import crmDjango from "./projects/CRM-Django.png";
 
 import metaCertification from "./certifications/metaFrontEndCertificate.png";
 import googleCertification from "./certifications/googleCloudCertificate.png";
 import javascriptCertification from "./certifications/javaScriptCertificate.png";
-import cisconetworkCertification from "./certifications/CiscoNetworking.jpeg"
+import cisconetworkCertification from "./certifications/CiscoNetworking.jpeg";
+import metaiosCertification from "./certifications/metaIOSCertificate.png";
 
 import user1 from "./testimonials/user1.jpg";
 import user2 from "./testimonials/user2.jpg";
@@ -109,10 +111,12 @@ export {
   neorisProject,
   encriptorProject,  
   wiseCredit,
+  crmDjango,
   metaCertification,
   googleCertification,
   javascriptCertification,
   cisconetworkCertification,
+  metaiosCertification,
   user1,
   user2,
   user3,

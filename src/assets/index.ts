@@ -54,7 +54,7 @@ import metaCertification from "./certifications/metaFrontEndCertificate.png";
 import googleCertification from "./certifications/googleCloudCertificate.png";
 import javascriptCertification from "./certifications/javaScriptCertificate.png";
 import cisconetworkCertification from "./certifications/CiscoNetworking.jpeg";
-import metaiosCertification from "./certifications/metaIOSCertificate.png";
+import metaiosCertification from "./certifications/METAIOScertificate.png";
 
 import user1 from "./testimonials/user1.jpg";
 import user2 from "./testimonials/user2.jpg";

@@ -49,6 +49,7 @@ import neorisProject from "./projects/NeorisPrroject.png";
 import encriptorProject from "./projects/EncriptorProject.png";
 import wiseCredit from "./projects/CreditSimulation-Image.jpeg";
 import crmDjango from "./projects/DJANGOCRMMAIN.png";
+import papaloApp from "./projects/PapaloApp.png";
 
 import metaCertification from "./certifications/metaFrontEndCertificate.png";
 import googleCertification from "./certifications/googleCloudCertificate.png";
@@ -112,6 +113,7 @@ export {
   encriptorProject,  
   wiseCredit,
   crmDjango,
+  papaloApp,
   metaCertification,
   googleCertification,
   javascriptCertification,

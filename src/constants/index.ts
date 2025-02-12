@@ -55,6 +55,7 @@ import {
   twitter,
   github,
   whatsapp,
+  papaloApp,
 } from "../assets";
 
 // Navbar Links
@@ -217,19 +218,6 @@ export const EXPERIENCES = [
       "Enhanced promotional strategies by leveraging data-driven insights to deliver targeted marketing advertisements, ensuring more relevant offers reach customers based on their preferences.",
     ],
   },
-  {
-    title: "Rocket Hackathon Winner",
-    company_name: "Arca Continental",
-    icon: arcaContinental,
-    iconBg: "#383E56",
-    date: "Jan 2024",
-    points: [
-      "Led the team by organizing tasks and managing team dynamics during the hackathon.",
-      "Engineered a machine learning solution using TensorFlow to develop and train apredictive model that identifies individual product preferences.",
-      "Implemented a solution to send targeted promotions based on detected customer preferences, enhancing the effectiveness of marketing efforts.",
-      "Enhanced promotional strategies by leveraging data-driven insights to deliver targeted marketing advertisements, ensuring more relevant offers reach customers based on their preferences.",
-    ],
-  },
 ] as const;
 
 // Testimonials
@@ -345,6 +333,28 @@ export const PROJECTS = [
     image: wiseCredit,
     source_code_link: "https://github.com/DiegoLarrieta/HackathonCapOne",
     live_site_link: "https://github.com/DiegoLarrieta/HackathonCapOne",
+  },
+  {
+    name: "PapaloApp",
+    description:
+      "I developed an Android  app that enhance the experience of the papalote museum , creating features that improves the experience like creating interactive questions that the user can answer and get a reward, also the app has a map that shows the location of the museum, also the app has a feature that shows the user the events that are happening in the museum and allows them to scan qr codes which provides them extra information about the museum. Also provided meaningful insights to the museum administrators about the user behavior.",
+    tags: [
+      {
+        name: "Kotlin",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Jetpack Compose",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: papaloApp,
+    source_code_link: "https://github.com/DiegoLarrieta/PapaloApp",
+    live_site_link: "https://github.com/DiegoLarrieta/PapaloApp",
   },
 ] as const;
 

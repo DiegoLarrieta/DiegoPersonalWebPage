@@ -22,6 +22,14 @@ import {
   python,
   sql,
   swift,
+  gcp,
+  aws,
+  kotlin,
+  oci,
+  java,
+  postgre,
+  springboot,
+  tensoflow,
   superpin,
   farmasana,
   intellsis,
@@ -42,11 +50,13 @@ import {
   amazonReplic,
   neorisProject,
   encriptorProject,
+  CPMAWS,
   metaCertification,
   googleCertification,
   javascriptCertification,
   cisconetworkCertification,
   metaiosCertification,
+  oraclecloudCertification,
   user1,
   user2,
   user3,
@@ -110,14 +120,6 @@ export const SERVICES = [
 // Technologies
 export const TECHNOLOGIES = [
   {
-    name: "HTML 5",//Yes
-    icon: html,
-  },
-  {
-    name: "CSS 3",//Yes
-    icon: css,
-  },
-  {
     name: "JavaScript",//Yes
     icon: javascript,
   },
@@ -146,8 +148,8 @@ export const TECHNOLOGIES = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Swift",
+    icon: swift,
   },
   {
     name: "git",
@@ -158,9 +160,45 @@ export const TECHNOLOGIES = [
     icon: sql,
   },
   {
-    name : "IOS",
-    icon : swift,
-  }
+    name : "AWS",
+    icon : aws,
+  },
+  {
+     name: "Docker",
+     icon: docker,
+  },
+  // {
+  //   name : "GCP",
+  //   icon : gcp,
+  // },
+  // {
+  //   name : "AWS",
+  //   icon : aws,
+  // },
+  // {
+  //   name : "OCI",
+  //   icon : oci,
+  // },
+  // {
+  //   name : "Java",
+  //   icon : java,
+  // },
+  // {
+  //   name : "Kotlin",
+  //   icon : kotlin,
+  // },
+  // {
+  //   name : "Postgre",
+  //   icon : postgre,
+  // },
+  // {
+  //   name : "Spring Boot",
+  //   icon : springboot,
+  // },
+  {
+    name : "TensorFlow",
+    icon : tensoflow,
+  },
  
 ] as const;
 
@@ -241,6 +279,10 @@ export const CERTIFICATES = [
   {
     certificateName: "Meta IOS Certification",
     image: metaiosCertification, // Reemplaza con la ruta real de la imagen
+  },
+  {
+    certificateName: "Oracle Cloud Certification",
+    image: oraclecloudCertification, // Reemplaza con la ruta real de la imagen
   }
 ] as const;
 
@@ -260,7 +302,7 @@ export const PROJECTS = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
@@ -296,15 +338,15 @@ export const PROJECTS = [
       "Developed a web application for visualizing and analyzing cryptocurrencies. Users can search for different cryptocurrencies, view detailed performance graphs, and analyze historical data trends over time. The platform provides a comprehensive overview of each cryptocurrency's performance",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "RapidAPI",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
@@ -318,11 +360,11 @@ export const PROJECTS = [
       "I developed an iOS finance app that helps users analyze and compare the best personal loan options from various banks. The app allows users to input their personal information and loan requirements, then compares different banks based on their interest rates and loan characteristics to provide the best options. Additionally, we built an admin webpage where administrators can add new banks, update existing bank details, and edit their interest rates. This tool streamlines the loan selection process, making it easier for users to find the most suitable financial institutions for their needs. ",
     tags: [
       {
-        name: "swift",
+        name: "Swift",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
@@ -356,6 +398,28 @@ export const PROJECTS = [
     source_code_link: "https://github.com/DiegoLarrieta/PapaloApp",
     live_site_link: "https://github.com/DiegoLarrieta/PapaloApp",
   },
+  {
+    name:"Customer Profile Manager (Spring Boot + AWS)",
+    description:
+      "A comprehensive full-stack application built with Spring Boot for the backend, React for the frontend, and AWS S3 for secure profile image storage. The system relies on a Docker-based PostgreSQL database for reliable data management and uses JWT for authentication. Key features include customer CRUD operations, profile picture uploads, and an intuitive user interface. This project demonstrates a modern approach to building scalable, maintainable, and secure web applications, integrating AWS services, Docker orchestration, and best practices in full-stack development.",
+    tags: [
+      {
+        name: "SpringBoot",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: CPMAWS,
+    source_code_link: "https://github.com/DiegoLarrieta/Spring-AWS",
+    live_site_link: "https://customerprofilemanager.netlify.app/dashboard/customers",
+  }
 ] as const;
 
 export const SOCIALS = [
